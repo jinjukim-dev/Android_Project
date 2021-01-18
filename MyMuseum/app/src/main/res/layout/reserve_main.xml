@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="41dp"
+        android:padding="2dp"
+        android:text="예약"
+        android:textSize="15dp"
+        android:gravity="center"
+        android:textColor="#F0FFFF"
+        android:background="#413f3f"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:padding="5dp"
+                android:textSize="20dp"
+                android:text="* 예약 안내" />
+
+            <LinearLayout
+                android:layout_width="347dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/border"
+                android:orientation="vertical"
+                android:padding="17dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="* 대 상 :  초등학교 4학년 이상 국내·외 청소년·일반·단체(200명 이하) "
+                    android:textColor="#000000" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="* 소요시간 : 60분"
+                    android:textColor="#000000" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="* 해설 언어 : 한국어, 영어, 중국어, 일본어"
+                    android:textColor="#000000" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=" ※ 해설사의 사정에 따라 희망 예약일에 전시해설이"
+                    android:textColor="@color/colorPrimaryDark" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="   이루어지지 않을 수 있습니다."
+                    android:textColor="@color/colorPrimaryDark" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="* 장 소 :  1층 전쟁역사실, 2·3층 6·25전쟁I, II, III실, 3층 해외파병실/국군발전실 중 선택 "
+                    android:textColor="#000000" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=" ※ 해설사의 사정에 따라 희망예약일에 전시해설이 이루어지지 않을 수 있습니다."
+                    android:textColor="@color/colorPrimaryDark" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="* 예약확인 : 휴대폰 문자 및 홈페이지를 통한 상세정보 확인 "
+                    android:textColor="#000000" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="* 만남장소 :전시실 입구 고객센터(Information Desk)  "
+                    android:textColor="#000000" />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="* 이 용 료 : 무료(유료 특별기획전 및 주차료 개인 부담) "
+                    android:textColor="#000000" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="* 상담안내 : "
+                        android:textColor="#000000" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="02-709-3139(09:30~18:00) "
+                        android:textColor="@color/colorPrimaryDark" />
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:padding="6dp"
+                android:textSize="20dp"
+                android:text="* 상시해설 시간안내" />
+
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="122dp"
+                android:src="@drawable/reserve1" />
+
+            <Button
+                android:id="@+id/btnReserve"
+                android:layout_width="355dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:background="#8fbc8f"
+                android:layout_gravity="center"
+                android:text="예약하러 가기" />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

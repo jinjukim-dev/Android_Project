@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="#413f3f">
+
+
+            <Button
+                android:id="@+id/btnF1"
+                android:text="관람안내"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#03000000"
+                android:textColor="#ffffff"
+                android:layout_weight="1"/>
+
+            <Button
+                android:id="@+id/btnF2"
+                android:text="관람추천코스"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#03000000"
+                android:textColor="#ffffff"
+                android:layout_weight="1"/>
+
+            <Button
+                android:id="@+id/btnF3"
+                android:text="찾아오시는 길"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#03000000"
+                android:textColor="#ffffff"
+                android:layout_weight="1"/>
+
+            <Button
+                android:id="@+id/btnF4"
+                android:text="기념관 소개"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#f7f6fa"
+                android:textColor="#000"
+                android:layout_weight="1"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:text="전쟁 기념관을 방문해주신 여러분 환영합니다."
+            android:textSize="20dp"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:textColor="#000"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="#ffff">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="300dp"
+                android:layout_margin="10dp"
+                android:src="@drawable/m44" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="350dp"
+                android:src="@drawable/m4" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

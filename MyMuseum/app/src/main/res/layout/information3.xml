@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="#413f3f">
+
+
+            <Button
+                android:id="@+id/btnF1"
+                android:text="관람안내"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#03000000"
+                android:textColor="#ffffff"
+                android:layout_weight="1"/>
+
+            <Button
+                android:id="@+id/btnF2"
+                android:text="관람추천코스"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#03000000"
+                android:textColor="#ffffff"
+                android:layout_weight="1"/>
+
+            <Button
+                android:id="@+id/btnF3"
+                android:text="찾아오시는 길"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#f7f6fa"
+                android:textColor="#000"
+                android:layout_weight="1"/>
+
+            <Button
+                android:id="@+id/btnF4"
+                android:text="기념관 소개"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#03000000"
+                android:textColor="#ffffff"
+                android:layout_weight="1"/>
+
+        </LinearLayout>
+
+
+        <ImageView
+            android:id="@+id/imgMap"
+            android:layout_width="350dp"
+            android:layout_height="230dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/map"
+            android:layout_margin="15dp"/>
+
+        <TextView
+            android:text="자가용"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:textColor="#000"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:src="@drawable/car"
+            android:layout_margin="5dp"/>
+
+        <TextView
+            android:text="버스"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:textColor="#000"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:src="@drawable/bus"
+            android:layout_margin="5dp"/>
+
+        <TextView
+            android:text="서울 시티 투어버스"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:textColor="#000"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            android:layout_margin="5dp"
+            android:src="@drawable/citytour" />
+
+    </LinearLayout>
+
+</ScrollView>

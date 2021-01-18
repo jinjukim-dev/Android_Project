@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#413f3f">
+
+
+        <Button
+            android:id="@+id/btnF1"
+            android:text="관람안내"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#f7f6fa"
+            android:textColor="#000"
+            android:layout_weight="1"/>
+
+        <Button
+            android:id="@+id/btnF2"
+            android:text="관람추천코스"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#03000000"
+            android:textColor="#ffffff"
+            android:layout_weight="1"/>
+
+        <Button
+            android:id="@+id/btnF3"
+            android:text="찾아오시는 길"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#03000000"
+            android:textColor="#ffffff"
+            android:layout_weight="1"/>
+
+        <Button
+            android:id="@+id/btnF4"
+            android:text="기념관 소개"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#03000000"
+            android:textColor="#ffffff"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="330dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="15dp"
+            android:layout_weight="1"
+            android:src="@drawable/m1" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/m2"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+
+</LinearLayout>
