@@ -11,9 +11,9 @@
 
 ### 개발환경
 - 개발 프로그램 : Android Studio
-- DMBS : SQLite
+- DBMS : SQLite
 - 그래픽 프로그램 : Canva
-- api : Kakao Login api
+- API : Kakao Login api
   
 ### 기능
 - 전쟁기념관 소개 및 안내
